@@ -1,13 +1,10 @@
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: auto;
+html {
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+  margin: 0;
 }
 
 .song {
@@ -15,7 +12,7 @@ body {
 }
 
 .container {
-  min-height: 100vh;
+  height: 100vh;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
